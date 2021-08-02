@@ -17,3 +17,56 @@ body{
     background-color: greenyellow;
     color: orangered;
 }
+
+#navbar {
+background-color: rebeccapurple;
+}
+#navbar ul {
+    padding: 0;
+    list-style: none;
+}
+#navbar li {
+    display: inline;
+}
+#navbar a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 17px;
+    
+}
+#showcase{
+    background-image: url('../bg.jpg');
+    background-position: center right;
+    text-align:center ;
+}
+
+#shocase h1{
+    font-size: 27px;
+    line-height: 1.6em;
+}
+
+#main {
+    float: left;
+    width: 70%;
+    padding: 0 35px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color: teal;
+    color: white;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#main-footer {
+    background-color: turquoise;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
